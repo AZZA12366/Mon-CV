@@ -4,30 +4,37 @@ body {
   color: #000;
   padding: 20px;
   line-height: 1.6;
+   direction: rtl;   
 }
 
 .cv {
-  max-width: 600px;
+  width: 80%; 
   margin: auto;
-  text-align: center;
+  text-align: right; 
 }
 
 img {
   width: 120px;
   border-radius: 8px;
+  display: block;
+  margin: 0 auto;
 }
 
 h1 {
   margin: 10px 0;
+  color: red;
+  text-align: center;
+
 }
 
 h2 {
   margin-top: 30px;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 5px solid #aaa;
   padding-bottom: 5px;
-  text-align: left;
+  text-align: right;
 }
 
 p {
   text-align: left;
+  text-align: right;
 }
